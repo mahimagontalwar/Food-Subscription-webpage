@@ -1,0 +1,118 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: #f8b400;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    color: #fff;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+}
+
+.cta-button {
+    background: #ff5722;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+/* Plans Section */
+#plans {
+    padding: 2rem;
+    text-align: center;
+}
+
+#plans .plan {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin: 1rem 0;
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+}
+
+/* Testimonials Section */
+#testimonials {
+    background: #f4f4f4;
+    padding: 2rem;
+    text-align: center;
+}
+
+/* About Us */
+#about {
+    padding: 2rem;
+    text-align: center;
+}
+
+/* Contact Form */
+#contact {
+    padding: 2rem;
+    text-align: center;
+}
+
+#contact form {
+    display: inline-block;
+    max-width: 400px;
+    width: 100%;
+}
+
+#contact label,
+#contact input,
+#contact textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
